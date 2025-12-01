@@ -1,0 +1,67 @@
+.kalender-tabel {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.kalender-tabel th,
+.kalender-tabel td {
+    padding: 1rem;
+    text-align: left;
+}
+
+.kalender-tabel thead {
+    background-color: #1a237e;
+}
+
+.kalender-tabel th {
+    color: white;
+    font-weight: 600;
+}
+
+.kalender-tabel tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.kalender-tabel tbody tr:last-child {
+    border-bottom: none;
+}
+
+.kodus, .voorsil, .voit, .kaotus, .tulemas {
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    display: inline-block;
+}
+
+.kodus {
+    background-color: #e3f2fd;
+    color: #1565c0;
+}
+
+.voorsil {
+    background-color: #fff3e0;
+    color: #e65100;
+}
+
+.voit {
+    background-color: #c8e6c9;
+    color: #2e7d32;
+}
+
+.kaotus {
+    background-color: #ffcdd2;
+    color: #c62828;
+}
+
+.tulemas {
+    background-color: #e8f5e9;
+    color: #388e3c;
+}
+
+.moodunud-mang {
+    opacity: 0.7;
+}
