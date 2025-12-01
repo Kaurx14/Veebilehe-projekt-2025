@@ -2,7 +2,6 @@
 <html lang="et">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalender</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -11,59 +10,36 @@
         <ul>
             <li><a href="index.html">Avaleht</a></li>
             <li><a href="tiim.html">Tiim</a></li>
-            <li><a href="kalender.html">Kalender</a></li>
+            <li><a href="kalender.html" class="active">Kalender</a></li>
             <li><a href="uudised.html">Uudised</a></li>
         </ul>
     </nav>
     
-    <div class="ümbris">
-        <div class="sisu">
-            <main>
-                <h1>Mängude Kalender</h1>
-                
-                <table class="kalender-tabel">
-                    <thead>
-                        <tr>
-                            <th>Kuupäev</th>
-                            <th>Kellaaeg</th>
-                            <th>Vastasmeeskond</th>
-                            <th>Asukoht</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>15.11.2025</td>
-                            <td>18:00</td>
-                            <td>Kadrina Karud</td>
-                            <td>Kodus</td>
-                        </tr>
-                        <tr>
-                            <td>22.11.2025</td>
-                            <td>19:00</td>
-                            <td>KK Sõbra Keila</td>
-                            <td>Võõrsil</td>
-                        </tr>
-                        <tr>
-                            <td>29.11.2025</td>
-                            <td>17:30</td>
-                            <td>KK Pahvi Keila</td>
-                            <td>Kodus</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </main>
-        </div>
+    <div class="sisu">
+        <main>
+            <h1>Mängude Kalender</h1>
+            
+            <table class="kalender-tabel">
+                <thead>
+                    <tr>
+                        <th>Kuupäev</th>
+                        <th>Kellaaeg</th>
+                        <th>Vastasmeeskond</th>
+                        <th>Asukoht</th>
+                        <th>Tulemus</th>
+                    </tr>
+                </thead>
+                <tbody id="kalender-body">
+                </tbody>
+            </table>
+        </main>
     </div>
-    
+
     <footer>
-        <p>&copy; 2025 Tartur Ül Korvpallimeeskond.</p>
+        <p>&copy; 2025 Progekassid korvpallimeeskond</p>
         <p>Kontakt: <a href="mailto:info@korvpall.ee">info@korvpall.ee</a> | +372 555 1234</p>
-        <p>
-            Jälgi meid:
-            <a href="#">Instagram</a> |
-            <a href="#">Facebook</a> |
-            <a href="#">YouTube</a>
-        </p>
     </footer>
+
+    <script src="scripts/script.js"></script>
 </body>
 </html>
