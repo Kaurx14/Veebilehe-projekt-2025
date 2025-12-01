@@ -5,6 +5,7 @@
     <title>Tiim</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/tiim.css">
+    <link rel="icon" type="image/x-icon" href="assets/korvpall.ico">
 </head>
 <body>
     <nav class="navbar">
@@ -22,43 +23,7 @@
             <p class="tiim-intro">Hõlju mängija kaardi peal, et näha rohkem infot!</p>
             
             <div class="mangijakaardid">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img src="assets/mangija1.jpg" alt="Mängija 1">
-                            <h3>Mängija 1</h3>
-                        </div>
-                        <div class="flip-card-back">
-                            <h3>Mängija 1</h3>
-                            <p class="number">#1</p>
-                            <p class="positsioon">Mängujuht</p>
-                            <ul>
-                                <li>Pikkus: 185 cm</li>
-                                <li>Vanus: 22 a</li>
-                                <li>Punktid/mäng: 12.5</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img src="assets/mangija2.jpg" alt="Mängija 2">
-                            <h3>Mängija 2</h3>
-                        </div>
-                        <div class="flip-card-back">
-                            <h3>Mängija 2</h3>
-                            <p class="number">#5</p>
-                            <p class="positsioon">Tsenter</p>
-                            <ul>
-                                <li>Pikkus: 203 cm</li>
-                                <li>Vanus: 24 a</li>
-                                <li>Punktid/mäng: 15.2</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                <!-- Mängijad renderdatakse dünaamiliselt mangijad.js abil -->
             </div>
         </main>
     </div>
@@ -67,5 +32,6 @@
         <p>&copy; 2025 Progekassid korvpallimeeskond</p>
         <p>Kontakt: <a href="mailto:info@korvpall.ee">info@korvpall.ee</a> | +372 555 1234</p>
     </footer>
+    <script src="scripts/mangijad.js"></script>
 </body>
 </html>
